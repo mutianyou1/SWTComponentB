@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SWTComponentB_Example' do
+  pod 'SWTComponentB', :path => '../'
+
+  target 'SWTComponentB_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
