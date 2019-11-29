@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SWTComponentB'
-  s.version          = '0.3.0'
+  s.version          = 'master'
   s.summary          = 'A short description of SWTComponentB.'
 
 # This description is used to generate tags and improve search results.
