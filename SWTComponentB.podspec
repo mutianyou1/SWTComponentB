@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SWTComponentB'
   s.version          = '0.0.4'
-  s.summary          = 'A short description of SWTComponentB.'
+  s.summary          = 'demo for swift component'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -40,4 +40,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
     s.dependency 'SnapKit'
+    s.swift_version = '5.0'
 end
