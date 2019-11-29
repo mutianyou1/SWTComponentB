@@ -22,7 +22,7 @@ pod 'SWTComponentB'
 
 ## Author
 
-mutianyou1@126.com, yuanrong.pan@qizhidao.com
+mutianyou1@126.com
 
 ## License
 
