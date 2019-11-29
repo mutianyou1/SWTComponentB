@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1049CDA6BCE56209CD976C9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		1A00C0A83610CBCA9996273B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1049CDA6BCE56209CD976C9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1A00C0A83610CBCA9996273B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		437A379FB8BFC3AA1B859338 /* Pods-SWTComponentB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTComponentB_Tests.release.xcconfig"; path = "Target Support Files/Pods-SWTComponentB_Tests/Pods-SWTComponentB_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5918946C77A273E32B5ADC68 /* Pods_SWTComponentB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWTComponentB_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SWTComponentB_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWTComponentB_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* SWTComponentB_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWTComponentB_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		CA927B9408F8E743F9CA2EB3 /* SWTComponentB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SWTComponentB.podspec; path = ../SWTComponentB.podspec; sourceTree = "<group>"; };
+		CA927B9408F8E743F9CA2EB3 /* SWTComponentB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SWTComponentB.podspec; path = ../SWTComponentB.podspec; sourceTree = "<group>"; };
 		D451439BBEB108502487C516 /* Pods_SWTComponentB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWTComponentB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E61995DB170D72BEA507CC /* Pods-SWTComponentB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTComponentB_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SWTComponentB_Tests/Pods-SWTComponentB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F194EE632DD5C6B7ADA60B5D /* Pods-SWTComponentB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTComponentB_Example.debug.xcconfig"; path = "Target Support Files/Pods-SWTComponentB_Example/Pods-SWTComponentB_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				D9E61995DB170D72BEA507CC /* Pods-SWTComponentB_Tests.debug.xcconfig */,
 				437A379FB8BFC3AA1B859338 /* Pods-SWTComponentB_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -271,10 +271,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SWTComponentB_Example/Pods-SWTComponentB_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SWTComponentB/SWTComponentB.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWTComponentB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -438,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -484,7 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -498,6 +500,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SWTComponentB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -513,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SWTComponentB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

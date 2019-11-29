@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'SWTComponentB_Example' do
   pod 'SWTComponentB', :path => '../'
-
+  pod 'SnapKit'
   target 'SWTComponentB_Tests' do
     inherit! :search_paths
 
