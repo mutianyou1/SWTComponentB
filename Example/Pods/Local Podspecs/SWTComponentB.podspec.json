@@ -1,6 +1,6 @@
 {
   "name": "SWTComponentB",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "A short description of SWTComponentB.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/mutianyou1@126.com/SWTComponentB",
@@ -9,11 +9,11 @@
     "file": "LICENSE"
   },
   "authors": {
-    "mutianyou1@126.com": "yuanrong.pan@qizhidao.com"
+    "mutianyou1@126.com": "yuanrong.pan"
   },
   "source": {
     "git": "https://github.com/mutianyou1@126.com/SWTComponentB.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "10.0"

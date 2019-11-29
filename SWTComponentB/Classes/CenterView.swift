@@ -9,7 +9,7 @@
 import UIKit
 import SnapKit
 
-class CenterView: UIView {
+public class CenterView: UIView {
 
     /*
     // Only override draw() if you perform custom drawing.
@@ -19,7 +19,7 @@ class CenterView: UIView {
     }
     */
     
-    static func littleCenterView(_ view:UIView) {
+   public static  func littleCenterView(_ view:UIView) {
         
         let subView = UIView()
         view.addSubview(subView)
