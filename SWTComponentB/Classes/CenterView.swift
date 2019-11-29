@@ -31,5 +31,20 @@ public class CenterView: UIView {
             make.width.height.equalTo(100)
         }
     }
+    
+    /*
+     tips:
+     pod spec create ComponentA
+     pod lib create ComponentA
+
+     git commit -m "4 commit"
+     git push -u origin master
+
+     pod trunk push SWTComponentB.podspec
+     
+     
+     
+     
+     */
 
 }
